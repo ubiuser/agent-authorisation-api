@@ -52,7 +52,7 @@ components:
         type: string
         enum: [
           "application/vnd.hmrc.2.0+json"
-        ]
+          ]
     contentTypeHeader:
       name: Content-Type
       in: header
@@ -533,7 +533,7 @@ components:
       enum: [
         "main",
         "supporting"
-      ]
+        ]
       description: Only MTD-IT supports this field. Defaults to "main" if omitted.
 
     AgentsInvitationsResponse:
@@ -583,7 +583,7 @@ components:
             "Deauthorised",
             "Expired",
             "Partialauth"
-          ]
+            ]
           description: The current status of the invitation
         clientActionUrl:
           type: string
